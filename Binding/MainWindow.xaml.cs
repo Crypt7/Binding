@@ -23,6 +23,7 @@ namespace Binding
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = Employee.GetEmploye();
         }
     }
 }
